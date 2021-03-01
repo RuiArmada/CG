@@ -8,9 +8,12 @@
 
 float size = 1.0f;
 float angle = 0;
-float tx = 0;
-float ty = 0;
-float tz = 0;
+float tx = 0.1;
+float ty = 0.1;
+float tz = 0.1;
+float scalex = 1.0;
+float scaley = 1.0;
+float scalez = 1.0;
 GLenum drawType = GL_FILL;
 
 void changeSize(int w, int h) {
@@ -52,7 +55,9 @@ void renderScene(void) {
 			  0.0f,1.0f,0.0f);
 
 // put the geometric transformations here
-
+	glTranslated(tx, 0.0, tz);
+	glRotated(angle, 0.0, 1.0, 0.0);
+	glScalef(scalex, scaley, scalez);
 
 // put drawing instructions here
 	glBegin(drawType);
@@ -152,7 +157,7 @@ void reactKey(unsigned char key, int x, int y) {
 		drawType = GL_POINT;
 		break;
 	}
-
+	glutPostRedisplay();
 }
 
 
@@ -175,7 +180,6 @@ int main(int argc, char **argv) {
 
 	// put here the registration of the keyboard callbacks
 	glutKeyboardFunc(reactKey);
-
 
 	//  OpenGL settings
 	glEnable(GL_DEPTH_TEST);
