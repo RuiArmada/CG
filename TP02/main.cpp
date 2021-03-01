@@ -124,10 +124,10 @@ void reactKey(unsigned char key, int x, int y) {
 		size -= 0.1;
 		break;
 	case 'h':
-		angle += 1;
+		angle += 2;
 		break;
 	case 'l':
-		angle -= 1;
+		angle -= 2;
 		break;
 	case 'w':
 		tz += 0.1;
@@ -142,10 +142,10 @@ void reactKey(unsigned char key, int x, int y) {
 		tx -= 0.1;
 		break;
 	case 'k':
-		ty += 0.1;
+		scaley += 0.1;
 		break;
 	case 'j':
-		ty -= 0.1;
+		scaley -= 0.1;
 		break;
 	case '1':
 		drawType = GL_FILL;
