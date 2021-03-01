@@ -108,6 +108,38 @@ void renderScene(void) {
 		glVertex3f(0.0f, 1.0f, 0.0f);
 	glEnd();
 
+	//base
+		//Na verdade aqui para fazer a base desenhamos dois triangulos "colados"
+		//para formar o quadrado que é a base da piramide
+		glColor3f(1.0f, 0.0f, 1.0f);
+		glVertex3f(-1.0f, 0.0f, -1.0f);
+		glVertex3f(1.0f, 0.0f, -2.0f);
+		glVertex3f(1.0f, 0.0f, 1.0f);
+		glVertex3f(-1.0f, 0.0f, -1.0f);
+		glVertex3f(1.0f, 0.0f, 2.0f);
+		glVertex3f(-1.0f, 0.0f, -1.0f);
+		//side
+		glColor3f(1.0f, 0.0f, 0.0f);
+		glVertex3f(1.0f, 0.0f, -1.0f);
+		glVertex3f(0.0f, 1.0f, 0.0f);
+		glVertex3f(1.0f, 0.0f, 1.0f);
+
+		glColor3f(0.0f, 1.0f, 0.0f);
+		glVertex3f(-1.0f, 0.0f, 1.0f);
+		glVertex3f(1.0f, 0.0f, 1.0f);
+		glVertex3f(0.0f, 1.0f, 0.0f);
+
+		glColor3f(0.0f, 0.0f, 1.0f);
+		glVertex3f(-1.0f, 0.0f, -1.0f);
+		glVertex3f(-1.0f, 0.0f, 1.0f);
+		glVertex3f(0.0f, 1.0f, 0.0f);
+
+		glColor3f(1.0f, 1.0f, 0.0f);
+		glVertex3f(1.0f, 0.0f, -1.0f);
+		glVertex3f(-1.0f, 0.0f, -1.0f);
+		glVertex3f(0.0f, 1.0f, 0.0f);
+	glEnd();
+
 	// End of frame
 	glutSwapBuffers();
 }
@@ -117,12 +149,6 @@ void renderScene(void) {
 // write function to process keyboard events
 void reactKey(unsigned char key, int x, int y) {
 	switch (key) {
-	case '+':
-		size += 0.1;
-		break;
-	case '-':
-		size -= 0.1;
-		break;
 	case 'h':
 		angle += 2;
 		break;
@@ -146,15 +172,6 @@ void reactKey(unsigned char key, int x, int y) {
 		break;
 	case 'j':
 		scaley -= 0.1;
-		break;
-	case '1':
-		drawType = GL_FILL;
-		break;
-	case '2':
-		drawType = GL_LINE;
-		break;
-	case '3':
-		drawType = GL_POINT;
 		break;
 	}
 	glutPostRedisplay();
