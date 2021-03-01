@@ -6,7 +6,6 @@
 
 #include <math.h>
 
-float size = 1.0f;
 float angle = 0;
 float tx = 0.1;
 float ty = 0.1;
