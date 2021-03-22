@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\CG\code\dist.hpp(10,22): error C7525: inline variables require at least '/std:c++17'
+C:\CG\code\dist.hpp(20): message : see reference to class template instantiation 'Dist<D>' being compiled
+C:\CG\code\dist.hpp(10,22): error C2864: 'Dist<D>::engine': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+C:\CG\code\dist.hpp(10,1): message : type is 'int'
+C:\CG\code\dist.hpp(15,1): error C3646: 'Dist': unknown override specifier
+C:\CG\code\dist.hpp(15,16): error C2059: syntax error: '('
+C:\CG\code\dist.hpp(15,1): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+C:\CG\code\dist.hpp(20,1): fatal error C1004: unexpected end-of-file found
