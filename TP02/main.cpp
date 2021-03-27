@@ -77,7 +77,7 @@ void renderScene(void) {
 	glBegin(GL_TRIANGLES);
 		//base
 		//Na verdade aqui para fazer a base desenhamos dois triangulos "colados"
-		//para formar o quadrado que é a base da piramide
+		//para formar o quadrado que ï¿½ a base da piramide
 		glColor3f(1.0f, 0.0f, 1.0f);
 		glVertex3f(-1.0f, 0.0f, -1.0f);
 		glVertex3f(1.0f, 0.0f, -1.0f);
@@ -109,7 +109,7 @@ void renderScene(void) {
 
 	//base
 		//Na verdade aqui para fazer a base desenhamos dois triangulos "colados"
-		//para formar o quadrado que é a base da piramide
+		//para formar o quadrado que ï¿½ a base da piramide
 		glColor3f(1.0f, 0.0f, 1.0f);
 		glVertex3f(-1.0f, 0.0f, -1.0f);
 		glVertex3f(1.0f, 0.0f, -2.0f);
@@ -187,7 +187,7 @@ int main(int argc, char **argv) {
 	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowPosition(100, 100);
 	glutInitWindowSize(800, 800);
-	glutCreateWindow("CG@DI-UM");
+	glutCreateWindow("GAIA-Rui");
 
 	// Required callback registry 
 	glutDisplayFunc(renderScene);

@@ -18,7 +18,7 @@ int i = 0;
 void changeSize(int w, int h)
 {
 	// Prevent a divide by zero, when window is too short
-	// (you can’t make a window with zero width).
+	// (you canï¿½t make a window with zero width).
 	if (h == 0)
 		h = 1;
 
@@ -77,12 +77,12 @@ void printInfo() {
 
 int main(int argc, char** argv)
 {
-	// put GLUT’s init here
+	// put GLUTï¿½s init here
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowPosition(100, 100);
 	glutInitWindowSize(800, 800);
-	glutCreateWindow("CG@DI");
+	glutCreateWindow("GAIA-Rui");
 	
 	// put callback registry here
 	glutReshapeFunc(changeSize);
@@ -94,7 +94,7 @@ int main(int argc, char** argv)
 	glEnable(GL_CULL_FACE);
 	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 	
-	// enter GLUT’s main cycle
+	// enter GLUTï¿½s main cycle
 	glutMainLoop();
 	
 	return 1;
