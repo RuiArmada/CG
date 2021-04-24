@@ -1,3 +1,6 @@
-# CG
+# 👾👾 CG 👾👾
 
-Fichas realizadas na cadeira de Computação Gráfica @ Universidade do Minho
+OpenGL based exercises done in the CG class @ Minho University
+
+## Author
+* [Rui Filipe Pimenta Armada]((https://github.com/RuiArmada))
