@@ -4,7 +4,7 @@ OpenGL based exercises done in the CG class @ Minho University
 
 ## How to Run
 
-Notice: You must aquire the toolkits folder that is made available in the class
+Notice: You must adquire the toolkits folder that is made available in the class
 
 ```
 > cd Cass[X]
