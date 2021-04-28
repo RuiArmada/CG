@@ -7,9 +7,9 @@ OpenGL, based exercises done in the CG class @ Minho University
 * `cd class[x]`
 *  `mkdir build`
 *  `cd build`
-*  `cmake .. -DTOOLKITS_FOLDER:STRING=[absolute path to the toolkits forlder] -A Win32
+*  `cmake .. -DTOOLKITS_FOLDER:STRING=[absolute path to the toolkits forlder] -A Win32`
 *  `cmake --build`
-*  `./Debug/[Name of the Executable]
+*  `./Debug/[Name of the Executable]`
 
 Notice: You must adquire the toolkits folder that is made available in the class
 
