@@ -1,6 +1,6 @@
 # 👾👾 CG 👾👾
 
-OpenGL based exercises done in the CG class @ Minho University
+OpenGL, based exercises done in the CG class @ Minho University
 
 ## How to Run
 
