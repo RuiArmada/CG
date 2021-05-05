@@ -253,12 +253,14 @@ void keyboardFunc(unsigned char key, int x, int y) {
 	glutPostRedisplay();
 }
 
+
 void mouseFunc(int button, int state, int x, int y) {
     if(button == GLUT_LEFT_BUTTON) {
         if (state == GLUT_DOWN)
             firstMouse = true;
     }
 }
+
 
 void motionFunc(int x, int y) {
     if(firstMouse) {
