@@ -357,7 +357,7 @@ void loadTexture() {
 	unsigned char *texData;
 	ilGenImages(1, &t);
 	ilBindImage(t);
-	ilLoadImage((ILstring)"images/grass.jpg");
+	ilLoadImage((ILstring)"/images/grass.jpg");
 	tw = ilGetInteger(IL_IMAGE_WIDTH);
 	th = ilGetInteger(IL_IMAGE_HEIGHT);
 	ilConvertImage(IL_RGBA, IL_UNSIGNED_BYTE);
@@ -381,7 +381,7 @@ void init() {
 	ilInit();
 	ilGenImages(1, ima);
 	ilBindImage(ima[0]);
-	ilLoadImage((ILstring)"images/terrain.jpg");
+	ilLoadImage((ILstring)"/images/terrain.jpg");
 	ilConvertImage(IL_LUMINANCE, IL_UNSIGNED_BYTE);
 	imageWidth = ilGetInteger(IL_IMAGE_HEIGHT);
 	imageData = ilGetData();
