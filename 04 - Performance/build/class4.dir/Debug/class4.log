@@ -1,5 +1,0 @@
-﻿  main.cpp
-C:\CG\code\main.cpp(85,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\CG\code\main.cpp(232,10): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'double'
-C:\CG\code\main.cpp(237,10): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'double'
-  class4.vcxproj -> C:\CG\code\build\Debug\class4.exe
