@@ -1,3 +1,0 @@
-C:/CG/code/build/CMakeFiles/class1.dir
-C:/CG/code/build/CMakeFiles/ALL_BUILD.dir
-C:/CG/code/build/CMakeFiles/ZERO_CHECK.dir
