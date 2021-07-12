@@ -1,3 +1,3 @@
 # Lighting
 ## Objective
-  Add normals to the cylinder & set and enable lighting.
+  Add normals to the cylinder. Set and enable lighting.
