@@ -107,38 +107,6 @@ void renderScene(void) {
 		glVertex3f(0.0f, 1.0f, 0.0f);
 	glEnd();
 
-	//base
-		//Na verdade aqui para fazer a base desenhamos dois triangulos "colados"
-		//para formar o quadrado que � a base da piramide
-		glColor3f(1.0f, 0.0f, 1.0f);
-		glVertex3f(-1.0f, 0.0f, -1.0f);
-		glVertex3f(1.0f, 0.0f, -2.0f);
-		glVertex3f(1.0f, 0.0f, 1.0f);
-		glVertex3f(-1.0f, 0.0f, -1.0f);
-		glVertex3f(1.0f, 0.0f, 2.0f);
-		glVertex3f(-1.0f, 0.0f, -1.0f);
-		//side
-		glColor3f(1.0f, 0.0f, 0.0f);
-		glVertex3f(1.0f, 0.0f, -1.0f);
-		glVertex3f(0.0f, 1.0f, 0.0f);
-		glVertex3f(1.0f, 0.0f, 1.0f);
-
-		glColor3f(0.0f, 1.0f, 0.0f);
-		glVertex3f(-1.0f, 0.0f, 1.0f);
-		glVertex3f(1.0f, 0.0f, 1.0f);
-		glVertex3f(0.0f, 1.0f, 0.0f);
-
-		glColor3f(0.0f, 0.0f, 1.0f);
-		glVertex3f(-1.0f, 0.0f, -1.0f);
-		glVertex3f(-1.0f, 0.0f, 1.0f);
-		glVertex3f(0.0f, 1.0f, 0.0f);
-
-		glColor3f(1.0f, 1.0f, 0.0f);
-		glVertex3f(1.0f, 0.0f, -1.0f);
-		glVertex3f(-1.0f, 0.0f, -1.0f);
-		glVertex3f(0.0f, 1.0f, 0.0f);
-	glEnd();
-
 	// End of frame
 	glutSwapBuffers();
 }
